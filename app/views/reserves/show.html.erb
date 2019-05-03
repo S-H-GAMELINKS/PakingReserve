@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @reserf.price %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @reserf.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @reserf.address %>
+</p>
+
+<p>
+  <strong>Tel:</strong>
+  <%= @reserf.tel %>
+</p>
+
+<p>
+  <strong>Reserved:</strong>
+  <%= @reserf.reserved %>
+</p>
+
+<%= link_to 'Edit', edit_reserf_path(@reserf) %> |
+<%= link_to 'Back', reserves_path %>
